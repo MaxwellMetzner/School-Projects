@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# linguist vendor the path ./'Programming Language CS 496 (Ocaml)'/'Notes & Stub'/*
-./Programming\ Language\ CS\ 496\ \(Ocaml\)/Notes\ &\ Stub/* linguist-vendored
+# Keep the course's supplied notes and starter material out of language statistics.
+Programming*CS*496*/Notes*Stub/** linguist-vendored

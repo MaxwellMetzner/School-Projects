@@ -13,10 +13,10 @@
     let newSpan = document.createElement('span');
 
     let newImg = document.createElement('p');
-    newImg.innerHTML = 'Message: ' + message;
+    newImg.textContent = 'Message: ' + message;
     
     let innerDiv = document.createElement('div');
-    innerDiv.innerHTML = 'Name: ' + username;
+    innerDiv.textContent = 'Name: ' + username;
     innerDiv.setAttribute('class', "innerPost");
 
     newDiv.appendChild(newSpan);

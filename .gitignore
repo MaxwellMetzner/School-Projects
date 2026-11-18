@@ -1,0 +1,38 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Native build output
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.axf
+*.out
+Debug/
+
+# Java
+*.class
+
+# OCaml and Dune
+_build/
+.merlin
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.cma
+*.cmt
+*.cmti
+*.annot
+*.byte
+*.native
+*.all-deps
